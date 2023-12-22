@@ -1,0 +1,54 @@
+/* SendEmail.css */
+
+.send-email-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .send-email-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .send-email-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .send-email-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .send-email-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .send-email-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-bottom: 10px;
+  }
+  
+  .success-message {
+    color: #009900;
+    margin-bottom: 10px;
+  }
+  
